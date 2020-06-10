@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    width: 400px;
+    height: 400px;
+    padding-left: 10px;
+}
+
+#detail {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 450px;
+    margin: 6rem auto 8.1rem auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#card-content {
+    padding: 12px 44px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#card-title {
+    font-family: 'Quicsand', sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#detail-information {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
